@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@s App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+/* .slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+} */
+/* .swiper .item {
+  margin: 0 10px;
+} */
+/* .slick-slide img {
+  width: 170px;
+  height: 234px;
+  border-radius: 6px;
+} */
+/* .slick-prev:before,
+.slick-next:before {
+  font-size: 40px;
+} */

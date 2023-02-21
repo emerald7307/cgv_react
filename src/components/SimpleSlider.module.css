@@ -1,0 +1,227 @@
+.movielist {
+  /* width: 65%; 처음에 감으로 제대로 안만든경우*/
+  overflow: hidden;
+  /* margin-left: -30px; */
+  padding: 50px 30px 60px;
+ 
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.moviechart_wrap{
+  clear: none;
+  float: none;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(232, 232, 232, 0.37));
+  height: 461.98px;
+}
+.card {
+  width: 170px;
+  height: 234px;
+}
+.card-top {
+  width: 980px;
+  height: 294.99px;
+}
+.card-top h1 {
+  font-size: 1rem;
+}
+
+.card-top img {
+  width: 170px;
+  height: 234px;
+  object-fit: cover;
+  border-radius: 6px;
+
+  /*  */
+  
+}
+.card-bottom {
+  margin: 10px 20px;
+}
+
+.card-bottom img{
+ width: 16px; 
+ height: 16px;
+ position: relative;
+ top:-32px;
+
+ left: -7px;
+}
+/*  */
+.swiper {
+  width: 980px;
+  height: 294.99px;
+  margin: 0 auto;
+}
+.swiper .img {
+  width: 170px;
+  height: 234px;
+  margin: 0 -10px;
+}
+
+/* .movielist rank {
+  color: red;
+}
+.movielist movieNm {
+  color: red;
+} */
+h2 {
+  color: white;
+  position: relative;
+  left: -1980px;
+  bottom: -185px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+}
+.moiveNmlist {
+  font-size: 18px;
+  color: #222;
+  line-height: 1.167em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  left: -1960px;
+  bottom: -150px;
+  display: block;
+  overflow: hidden;
+  font-weight: 500;
+  width:170.4px;
+}
+p {
+  color: #444444;
+}
+.card {
+  counter-reset: ct;
+}
+
+.card::after {
+  /* counter-increment: ct;
+  content: counter(ct); */
+  /* z-index: 3; */
+  /* position: relative;
+  left: -1980px;
+  bottom: -300px; */
+}
+
+/* 영화카드 위 moviechart시작 */
+
+.moviename {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.moviename2 {
+  display: inline-flex;
+}
+.chartname {
+  font-weight: 700;
+  color: #222;
+}
+.chartname2 {
+  font-weight: 700;
+  /* color: #666666; */
+  position: relative;
+  margin-left: 32px;
+}
+.btnallView {
+  padding: 4px 32px 4px 15px;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.429em;
+  background: transparent
+    url(https://img.cgv.co.kr/R2014/images/common/ico/arrowR_8x13.png)
+    calc(100% - 7px) center/8px 13px scroll no-repeat;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 0 rgb(0 0 0 / 5%);
+  position: relative;
+   left: -25px; /*오류수정 */
+}
+
+.ranklist {
+  color: white;
+  position: relative;
+  left: -1950px;
+    bottom: -177px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.movielist .chartnamechild {
+  font-weight: 700;
+  color: #222;
+  font-size: 26px;
+  line-height: 1.423em;
+}
+
+.movielist .chartname2child {
+  font-weight: 400;
+  color: #666666;
+  font-size: 26px;
+  line-height: 1.423em;
+}
+
+.movielist .chartname2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  width: 1px;
+  height: 14px;
+  margin-top: -7px;
+  background-color: #d8d8d8;
+}
+/* 
+.swiper img:after { 
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* width: 170px;
+  height: 234px; */
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09) 35%, rgba(0, 0, 0, 0.85));
+  z-index: 2; */
+/* }  */
+
+
+/* 예매율 */
+.reservationrate {
+  position: relative;
+  padding-left: 16px;
+  top: -71px;
+    font-size: 14px;
+    right: -35px;
+    font-weight: 400;
+}
+
+/*  등급 */
+
+.cardgrade{
+  position: relative;
+
+    top: -51px;
+    right: -10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.reservationrate:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  width: 1px;
+  height: 10px;
+  margin-top: -5px;
+  background-color: #ededed;
+}
